@@ -8,6 +8,15 @@ Plugin URL: [http://www.ianlunn.co.uk/plugins/jquery-parallax/, https://github.c
 Dual licensed under the MIT and GPL licenses:
 http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/licenses/gpl.html
+
+Usage:
+$(selector).parallax(xPosition, adjuster, inertia, outerHeight) options:
+  xPosition (string/float): Horizontal position of the element
+  adjuster (float): y position to start from
+  inertia (float): speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+  outerHeight (boolean): - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+  
+For a full demo see https://github.com/alexpearce/jquery.parallax
 */
 
 (function($, window, undefined) {
